@@ -1,6 +1,6 @@
-import IMT2019031_DM_Cache as DM_Cache
-import IMT2019031_SA4_Cache as SA4_Cache
-from IMT2019031_ExtractData import results, fileNames
+import DM_Cache as DM_Cache
+import SA4_Cache as SA4_Cache
+from ExtractData import results, fileNames
 from tabulate import tabulate
 
 
