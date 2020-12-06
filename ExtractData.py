@@ -2,7 +2,7 @@ import os
 
 # get's the directory in which this file is
 abs_path = os.path.dirname(__file__)
-traces = "proj1-traces/traces"
+traces = "Trace Files/traces"
 paths = [""]*5
 results = [""]*5
 fileNames = ["gcc.trace", "gzip.trace",
@@ -18,3 +18,4 @@ for i in range(5):
     for row in rows:  # going through each row and selecting the terms in the middle column and adding them to the array
         results[i].append(row.split(' ')[1])
     f.close()
+  
